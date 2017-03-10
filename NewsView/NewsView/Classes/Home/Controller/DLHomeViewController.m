@@ -9,12 +9,13 @@
 #import "DLHomeViewController.h"
 #import "DLModel.h"
 #import "DLTitleLabel.h"
+#import "DLCollectionViewCell.h"
 
-@interface DLHomeViewController ()
+@interface DLHomeViewController ()<UICollectionViewDataSource,UICollectionViewDelegate>
 @property (weak, nonatomic) IBOutlet UICollectionView *NewsView;
 @property (weak, nonatomic) IBOutlet UICollectionViewFlowLayout *NewsViewFlowLayout;
 @property (weak, nonatomic) IBOutlet UIScrollView *TitlelabelView;
-@property (nonatomic, strong) NSArray *channelArr;
+@property (nonatomic, strong) NSArray<DLModel *> *channelArr;
 
 
 @end
@@ -25,6 +26,7 @@
     [super viewDidLoad];
     self.automaticallyAdjustsScrollViewInsets = NO;
     [self requestData];
+    [self setCollectionView];
 }
 
 - (void)requestData {
@@ -45,6 +47,32 @@
     self.TitlelabelView.contentSize = CGSizeMake(self.channelArr.count * 80, 0);
     self.TitlelabelView.showsHorizontalScrollIndicator = NO;
     self.TitlelabelView.showsVerticalScrollIndicator = NO;
+}
+
+- (void)setCollectionView {
+    
+    self.NewsView.dataSource = self;
+    self.NewsView.delegate = self;
+    self.NewsViewFlowLayout.itemSize = CGSizeMake(self.view.frame.size.width, self.view.frame.size.height - 64 - 44);
+    self.NewsViewFlowLayout.minimumLineSpacing = 0;
+    self.NewsViewFlowLayout.minimumInteritemSpacing = 0;
+    self.NewsViewFlowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+    self.NewsView.pagingEnabled = YES;
+    self.NewsView.bounces = NO;
+    self.NewsView.showsVerticalScrollIndicator = NO;
+    self.NewsView.showsHorizontalScrollIndicator = NO;
+    
+}
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    return self.channelArr.count;
+}
+
+- (DLCollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    DLCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"item" forIndexPath:indexPath];
+    
+    cell.url = [NSString stringWithFormat:@"%@/0-20.html",self.channelArr[indexPath.row].tid];
+    return cell;
 }
 
 
