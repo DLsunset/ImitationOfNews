@@ -13,6 +13,9 @@
 		4FC56F511E72C66E0052AE92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC56F501E72C66E0052AE92 /* Assets.xcassets */; };
 		4FC56F541E72C66E0052AE92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC56F521E72C66E0052AE92 /* LaunchScreen.storyboard */; };
 		4FC56F671E72C86D0052AE92 /* DLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC56F631E72C86D0052AE92 /* DLHomeViewController.m */; };
+		4FC56F6B1E72CD7E0052AE92 /* topic_news.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FC56F6A1E72CD7E0052AE92 /* topic_news.json */; };
+		4FC56F6E1E72CEA60052AE92 /* DLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC56F6D1E72CEA60052AE92 /* DLModel.m */; };
+		4FC56F711E72D3BF0052AE92 /* DLTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC56F701E72D3BF0052AE92 /* DLTitleLabel.m */; };
 		C8C7E454E4F2058D3B7E5870 /* libPods-NewsView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 260981F74DB5BDA1E3341C0D /* libPods-NewsView.a */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +32,11 @@
 		4FC56F551E72C66E0052AE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FC56F621E72C86D0052AE92 /* DLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLHomeViewController.h; sourceTree = "<group>"; };
 		4FC56F631E72C86D0052AE92 /* DLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLHomeViewController.m; sourceTree = "<group>"; };
+		4FC56F6A1E72CD7E0052AE92 /* topic_news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_news.json; sourceTree = "<group>"; };
+		4FC56F6C1E72CEA60052AE92 /* DLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLModel.h; sourceTree = "<group>"; };
+		4FC56F6D1E72CEA60052AE92 /* DLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLModel.m; sourceTree = "<group>"; };
+		4FC56F6F1E72D3BF0052AE92 /* DLTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLTitleLabel.h; sourceTree = "<group>"; };
+		4FC56F701E72D3BF0052AE92 /* DLTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLTitleLabel.m; sourceTree = "<group>"; };
 		7A32515AA81528AEE730A3B2 /* Pods-NewsView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsView.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsView/Pods-NewsView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +88,7 @@
 				4FC56F501E72C66E0052AE92 /* Assets.xcassets */,
 				4FC56F521E72C66E0052AE92 /* LaunchScreen.storyboard */,
 				4FC56F551E72C66E0052AE92 /* Info.plist */,
+				4FC56F6A1E72CD7E0052AE92 /* topic_news.json */,
 				4FC56F441E72C66E0052AE92 /* Supporting Files */,
 			);
 			path = NewsView;
@@ -124,6 +133,8 @@
 		4FC56F641E72C86D0052AE92 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4FC56F6C1E72CEA60052AE92 /* DLModel.h */,
+				4FC56F6D1E72CEA60052AE92 /* DLModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -131,6 +142,8 @@
 		4FC56F651E72C86D0052AE92 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4FC56F6F1E72D3BF0052AE92 /* DLTitleLabel.h */,
+				4FC56F701E72D3BF0052AE92 /* DLTitleLabel.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -214,6 +227,7 @@
 			files = (
 				4FC56F541E72C66E0052AE92 /* LaunchScreen.storyboard in Resources */,
 				4FC56F511E72C66E0052AE92 /* Assets.xcassets in Resources */,
+				4FC56F6B1E72CD7E0052AE92 /* topic_news.json in Resources */,
 				4FC56F4F1E72C66E0052AE92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FC56F671E72C86D0052AE92 /* DLHomeViewController.m in Sources */,
+				4FC56F6E1E72CEA60052AE92 /* DLModel.m in Sources */,
+				4FC56F711E72D3BF0052AE92 /* DLTitleLabel.m in Sources */,
 				4FC56F491E72C66E0052AE92 /* AppDelegate.m in Sources */,
 				4FC56F461E72C66E0052AE92 /* main.m in Sources */,
 			);
@@ -432,6 +448,7 @@
 				4FC56F5A1E72C66E0052AE92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
