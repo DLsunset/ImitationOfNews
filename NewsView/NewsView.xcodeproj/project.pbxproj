@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FC56F461E72C66E0052AE92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC56F451E72C66E0052AE92 /* main.m */; };
+		4FC56F491E72C66E0052AE92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC56F481E72C66E0052AE92 /* AppDelegate.m */; };
+		4FC56F4F1E72C66E0052AE92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC56F4D1E72C66E0052AE92 /* Main.storyboard */; };
+		4FC56F511E72C66E0052AE92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC56F501E72C66E0052AE92 /* Assets.xcassets */; };
+		4FC56F541E72C66E0052AE92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC56F521E72C66E0052AE92 /* LaunchScreen.storyboard */; };
+		4FC56F671E72C86D0052AE92 /* DLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC56F631E72C86D0052AE92 /* DLHomeViewController.m */; };
+		C8C7E454E4F2058D3B7E5870 /* libPods-NewsView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 260981F74DB5BDA1E3341C0D /* libPods-NewsView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04EE52535E763302ADD016CD /* Pods-NewsView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsView/Pods-NewsView.debug.xcconfig"; sourceTree = "<group>"; };
+		260981F74DB5BDA1E3341C0D /* libPods-NewsView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewsView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC56F411E72C66D0052AE92 /* NewsView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC56F451E72C66E0052AE92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FC56F471E72C66E0052AE92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FC56F481E72C66E0052AE92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FC56F4E1E72C66E0052AE92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FC56F501E72C66E0052AE92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FC56F531E72C66E0052AE92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FC56F551E72C66E0052AE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FC56F621E72C86D0052AE92 /* DLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLHomeViewController.h; sourceTree = "<group>"; };
+		4FC56F631E72C86D0052AE92 /* DLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLHomeViewController.m; sourceTree = "<group>"; };
+		7A32515AA81528AEE730A3B2 /* Pods-NewsView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsView.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsView/Pods-NewsView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FC56F3E1E72C66D0052AE92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C7E454E4F2058D3B7E5870 /* libPods-NewsView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D360B0D6427CB422DD259C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				260981F74DB5BDA1E3341C0D /* libPods-NewsView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FC56F381E72C66D0052AE92 = {
+			isa = PBXGroup;
+			children = (
+				4FC56F431E72C66E0052AE92 /* NewsView */,
+				4FC56F421E72C66D0052AE92 /* Products */,
+				A520DBD388BE226101514088 /* Pods */,
+				2D360B0D6427CB422DD259C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4FC56F421E72C66D0052AE92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FC56F411E72C66D0052AE92 /* NewsView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FC56F431E72C66E0052AE92 /* NewsView */ = {
+			isa = PBXGroup;
+			children = (
+				4FC56F5F1E72C86D0052AE92 /* Classes */,
+				4FC56F471E72C66E0052AE92 /* AppDelegate.h */,
+				4FC56F481E72C66E0052AE92 /* AppDelegate.m */,
+				4FC56F4D1E72C66E0052AE92 /* Main.storyboard */,
+				4FC56F501E72C66E0052AE92 /* Assets.xcassets */,
+				4FC56F521E72C66E0052AE92 /* LaunchScreen.storyboard */,
+				4FC56F551E72C66E0052AE92 /* Info.plist */,
+				4FC56F441E72C66E0052AE92 /* Supporting Files */,
+			);
+			path = NewsView;
+			sourceTree = "<group>";
+		};
+		4FC56F441E72C66E0052AE92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FC56F451E72C66E0052AE92 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FC56F5F1E72C86D0052AE92 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4FC56F601E72C86D0052AE92 /* Home */,
+				4FC56F661E72C86D0052AE92 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4FC56F601E72C86D0052AE92 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4FC56F611E72C86D0052AE92 /* Controller */,
+				4FC56F641E72C86D0052AE92 /* Model */,
+				4FC56F651E72C86D0052AE92 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4FC56F611E72C86D0052AE92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4FC56F621E72C86D0052AE92 /* DLHomeViewController.h */,
+				4FC56F631E72C86D0052AE92 /* DLHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4FC56F641E72C86D0052AE92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4FC56F651E72C86D0052AE92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4FC56F661E72C86D0052AE92 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A520DBD388BE226101514088 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04EE52535E763302ADD016CD /* Pods-NewsView.debug.xcconfig */,
+				7A32515AA81528AEE730A3B2 /* Pods-NewsView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FC56F401E72C66D0052AE92 /* NewsView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FC56F581E72C66E0052AE92 /* Build configuration list for PBXNativeTarget "NewsView" */;
+			buildPhases = (
+				F527D685507B5FEEA95EF62E /* [CP] Check Pods Manifest.lock */,
+				4FC56F3D1E72C66D0052AE92 /* Sources */,
+				4FC56F3E1E72C66D0052AE92 /* Frameworks */,
+				4FC56F3F1E72C66D0052AE92 /* Resources */,
+				13674A5E4576D4A3B123157E /* [CP] Embed Pods Frameworks */,
+				D0FD9700E55D282DD45DC47B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewsView;
+			productName = NewsView;
+			productReference = 4FC56F411E72C66D0052AE92 /* NewsView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FC56F391E72C66D0052AE92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "董雷";
+				TargetAttributes = {
+					4FC56F401E72C66D0052AE92 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4FC56F3C1E72C66D0052AE92 /* Build configuration list for PBXProject "NewsView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FC56F381E72C66D0052AE92;
+			productRefGroup = 4FC56F421E72C66D0052AE92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FC56F401E72C66D0052AE92 /* NewsView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FC56F3F1E72C66D0052AE92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC56F541E72C66E0052AE92 /* LaunchScreen.storyboard in Resources */,
+				4FC56F511E72C66E0052AE92 /* Assets.xcassets in Resources */,
+				4FC56F4F1E72C66E0052AE92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13674A5E4576D4A3B123157E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsView/Pods-NewsView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0FD9700E55D282DD45DC47B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsView/Pods-NewsView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F527D685507B5FEEA95EF62E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FC56F3D1E72C66D0052AE92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC56F671E72C86D0052AE92 /* DLHomeViewController.m in Sources */,
+				4FC56F491E72C66E0052AE92 /* AppDelegate.m in Sources */,
+				4FC56F461E72C66E0052AE92 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4FC56F4D1E72C66E0052AE92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FC56F4E1E72C66E0052AE92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FC56F521E72C66E0052AE92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FC56F531E72C66E0052AE92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FC56F561E72C66E0052AE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4FC56F571E72C66E0052AE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FC56F591E72C66E0052AE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04EE52535E763302ADD016CD /* Pods-NewsView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NewsView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-115.NewsView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FC56F5A1E72C66E0052AE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A32515AA81528AEE730A3B2 /* Pods-NewsView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NewsView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-115.NewsView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FC56F3C1E72C66D0052AE92 /* Build configuration list for PBXProject "NewsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC56F561E72C66E0052AE92 /* Debug */,
+				4FC56F571E72C66E0052AE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FC56F581E72C66E0052AE92 /* Build configuration list for PBXNativeTarget "NewsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC56F591E72C66E0052AE92 /* Debug */,
+				4FC56F5A1E72C66E0052AE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FC56F391E72C66D0052AE92 /* Project object */;
+}
